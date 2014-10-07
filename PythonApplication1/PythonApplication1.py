@@ -44,3 +44,6 @@ print(array, " -> ", bubble(array))
 str1 = "Hello world"
 print(str1)
 print(str1[2:5])
+
+import django
+print(django.get_version())
