@@ -25,9 +25,9 @@ def bubble(arr):
 
 from pymongo import MongoClient
 
-client = MongoClient('mongodb://192.168.169.16')
-db = client.mytest
-collection = db.testdata
+client = MongoClient('mongodb://192.168.1.45')
+db = client.Test_1
+collection = db.Table_1
 print("Find items:", collection.count())
 for item in collection.find():
 	print(item)
@@ -46,4 +46,4 @@ print(str1)
 print(str1[2:5])
 
 import django
-print(django.get_version())
+print("django version:", django.get_version())
