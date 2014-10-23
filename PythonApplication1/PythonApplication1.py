@@ -23,14 +23,13 @@ def bubble(arr):
 		print("Iteration:", iteration, "array:", arr)
 	return arr
 
-from pymongo import MongoClient
-
-client = MongoClient('mongodb://192.168.1.45')
-db = client.Test_1
-collection = db.Table_1
-print("Find items:", collection.count())
-for item in collection.find():
-	print(item)
+#from pymongo import MongoClient
+#client = MongoClient('mongodb://192.168.1.45')
+#db = client.Test_1
+#collection = db.Table_1
+#print("Find items:", collection.count())
+#for item in collection.find():
+	#print(item)
 
 a, b = 0, 1
 print(a, b)
@@ -45,5 +44,10 @@ str1 = "Hello world"
 print(str1)
 print(str1[2:5])
 
-import django
-print("django version:", django.get_version())
+#import django
+#print("django version:", django.get_version())
+
+import requests
+headers = {'content-type': 'application/json'}
+r = requests.get("http://k-sp2013:8099/TestRestService.svc/Items", headers = headers)
+print(r.json())
