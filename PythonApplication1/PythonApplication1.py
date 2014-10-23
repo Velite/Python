@@ -50,4 +50,5 @@ print(str1[2:5])
 import requests
 headers = {'content-type': 'application/json'}
 r = requests.get("http://k-sp2013:8099/TestRestService.svc/Items", headers = headers)
+print(r.status_code)
 print(r.json())
