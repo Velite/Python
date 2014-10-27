@@ -44,11 +44,11 @@ str1 = "Hello world"
 print(str1)
 print(str1[2:5])
 
-#import django
-#print("django version:", django.get_version())
+import django
+print("django version:", django.get_version())
 
 import requests
-headers = {'content-type': 'application/json'}
+headers = {'content-type': 'application/json', 'accept': 'application/json'}
 r = requests.get("http://k-sp2013:8099/TestRestService.svc/Items", headers = headers)
 print(r.status_code)
 print(r.json())
