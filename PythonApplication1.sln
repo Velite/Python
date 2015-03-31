@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "PythonApplication1\PythonApplication1.pyproj", "{37309E0F-155B-4555-90A3-701566B1DC17}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CurrencyGetter", "CurrencyGetter\CurrencyGetter.pyproj", "{236DB176-99B5-4D62-B3CA-A9C914D917BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{37309E0F-155B-4555-90A3-701566B1DC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{37309E0F-155B-4555-90A3-701566B1DC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236DB176-99B5-4D62-B3CA-A9C914D917BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236DB176-99B5-4D62-B3CA-A9C914D917BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
