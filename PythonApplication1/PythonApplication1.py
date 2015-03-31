@@ -48,7 +48,13 @@ import django
 print("django version:", django.get_version())
 
 import requests
-headers = {'content-type': 'application/json', 'accept': 'application/json'}
-r = requests.get("http://k-sp2013:8099/TestRestService.svc/Items", headers = headers)
-print(r.status_code)
-print(r.json())
+#headers = {'content-type': 'application/json', 'accept': 'application/json'}
+#r = requests.get("http://k-sp2013:8099/TestRestService.svc/Items", headers = headers)
+#print(r.status_code)
+#print(r.json())
+
+from datetime import datetime
+requestUrl = datetime.today().strftime("%Y/%m/%d")
+currencyCode = "840"
+rr = requests.get("http://cbrates.rbc.ru/tsv/" + currencyCode + "/" + requestUrl + ".tsv")
+print(rr.text)
