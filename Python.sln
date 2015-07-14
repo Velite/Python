@@ -7,6 +7,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "Pytho
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CurrencyGetter", "CurrencyGetter\CurrencyGetter.pyproj", "{236DB176-99B5-4D62-B3CA-A9C914D917BB}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UrlRespParser", "UrlRespParser\UrlRespParser.pyproj", "{AC93A8AC-29F6-4008-993D-98B908D23CDE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication2", "PythonApplication2\PythonApplication2.pyproj", "{D2E135A3-D7F8-4AE9-BB8E-3CDBAB7886C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,10 @@ Global
 		{37309E0F-155B-4555-90A3-701566B1DC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{236DB176-99B5-4D62-B3CA-A9C914D917BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{236DB176-99B5-4D62-B3CA-A9C914D917BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC93A8AC-29F6-4008-993D-98B908D23CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC93A8AC-29F6-4008-993D-98B908D23CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E135A3-D7F8-4AE9-BB8E-3CDBAB7886C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E135A3-D7F8-4AE9-BB8E-3CDBAB7886C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
