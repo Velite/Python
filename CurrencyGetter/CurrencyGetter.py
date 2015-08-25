@@ -7,9 +7,8 @@ def get_value(currencyCode):
 	date = datetime.datetime.now()
 	requestUrl = url + str(currencyCode) + "/" + date.strftime("%Y/%m/%d") + ".tsv"
 	response = urlopen(requestUrl)
-	content = response.read()
-	content = str(content).replace("1\t", "")
-	value = float(content[5:-3])
+	content = response.read().decode("utf-8").replace("1\t", "").replace("\n", "")
+	value = float(content)
 	insert_to_db(value, currencyCode, date)
 
 def insert_to_db(value, currencyCode, date):
