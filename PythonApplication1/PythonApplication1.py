@@ -24,7 +24,7 @@ def bubble(arr):
 	return arr
 
 #from pymongo import MongoClient
-#client = MongoClient('mongodb://192.168.1.45')
+#client = MongoClient('mongodb://192.168.*.*')
 #db = client.Test_1
 #collection = db.Table_1
 #print("Find items:", collection.count())
